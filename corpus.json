@@ -1,0 +1,68 @@
+{
+    "name": "Spanish Corpus",
+    "locale": "es-ES",
+    "data": [
+        {
+            "intent": "saludos",
+            "utterances": [
+                "hola",
+                "buenos días",
+                "buenas tardes",
+                "bienvenido"
+            ],
+            "answers": [
+                "Hola, bienvenido a mi bot CV. Hablando conmigo podrás descubrir todos los detalles de mi vida profesional"
+            ]
+        },
+        {
+            "intent": "despedidas",
+            "utterances": [
+                "adios",
+                "nos vemos",
+                "hasta luego",
+                "muchas gracias"
+            ],
+            "answers": [
+                "Adios, espero que nos veamos pronto"
+            ]
+        },
+        {
+            "intent": "estudios",
+            "utterances": [
+                "qué has estudiado",
+                "cual es tu formación",
+                "donde te has formado",
+                "qué estudios tienes",
+                "cuales son tus estudios"
+            ],
+            "answers": [
+                "Estos son mis estudios:\n\n- Comencé estudiando la carrera de ingeniería de telecomunicaciones\n- Más tarde orienté mi carrera hacia el mundo del desarrollo de aplicaciones móviles\n- Actualmente me encuentro dentro del mundo del desarrollo web con Angular y NodeJS."
+            ]
+        },
+        {
+            "intent": "experiencia",
+            "utterances": [
+                "cual es tu experiencia",
+                "donde has trabajado",
+                "dime tus últimos trabajos",
+                "en que empresas has trabajado"
+            ],
+            "answers": [
+                "Estas son las empresas donde he trabajado: Accenture, Garaje de Ideas, ID..."
+            ]
+        },
+        {
+            "intent": "habilidades",
+            "utterances": [
+                "qué lenguajes de programación conoces",
+                "qué tecnologías manejas",
+                "con qué frameworks has trabajado",
+                "qué herramientas son las que más controlas",
+                "cuales son tus habilidades como programador"
+            ],
+            "answers": [
+                "Me manejo perfectamente con cualquier framework que tenga como base Javascript. "
+            ]
+        }
+    ]
+}
